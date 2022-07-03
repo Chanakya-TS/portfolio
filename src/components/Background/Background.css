@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-color: #202020;
+    width: 100%;
+    height: 100vh;
+}
+
+#name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name path:nth-child(1){
+    stroke-dasharray: 452;
+    stroke-dashoffset: 452;
+    animation: line-anim 2s ease forwards;
+}
+
+#name path:nth-child(2){
+    stroke-dasharray: 475.1;
+    stroke-dashoffset: 475.1;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#name path:nth-child(3){
+    stroke-dasharray: 435.8;
+    stroke-dashoffset: 435.8;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#name path:nth-child(4){
+   stroke-dasharray: 537.3; 
+   stroke-dashoffset: 537.3;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#name path:nth-child(5){
+    stroke-dasharray: 435.8;
+    stroke-dashoffset: 435.8;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#name path:nth-child(6){
+    stroke-dasharray: 455.4;
+    stroke-dashoffset: 455.4;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#name path:nth-child(7){
+    stroke-dasharray: 330.8;
+    stroke-dashoffset: 330.8;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+#name path:nth-child(8){
+    stroke-dasharray: 435.8;
+    stroke-dashoffset: 435.8;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+
+#name path:nth-child(9){
+    stroke-dasharray: 299.2;
+    stroke-dashoffset: 299.2;
+    animation: line-anim 2s ease forwards 2.4s;
+}
+
+#name path:nth-child(10){
+    stroke-dasharray: 439;
+    stroke-dashoffset: 439;
+    animation: line-anim 2s ease forwards 2.7s;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
